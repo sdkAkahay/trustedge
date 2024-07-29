@@ -1,3 +1,3 @@
-# DigiCert^® TrustEdge
+# DigiCert<sup>®</sup> TrustEdge
 
-DigiCert^® TrustEdge package repository.
+DigiCert<sup>®</sup> TrustEdge package repository.
