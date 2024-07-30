@@ -2,7 +2,7 @@
 
 > **Disclaimer:** Your use of these services, products, and software is limited to non-commercial use cases only, which includes usage for evaluation purposes prior to purchase. Commercial usage in a production environment requires the purchase of an associated entitlement.
 
-TrustEdge is a standalone executable that can run as both an **agent** for devices managed through [DigiCert<sup>®</sup> Device Trust Manager](https://www.digicert.com/device-trust-manager) and as a standalone **command line** tool for performing common security tasks on a device, such as generating keys and submitting a certificate signing request (CSR) to a certificate authority (CA). TrustEdge is built using [DigiCert<sup>®</sup> TrustCore SDK](https://www.digicert.com/iot/trustcore-sdk).
+TrustEdge is a standalone executable that can run as both an **agent** for devices managed through [DigiCert<sup>®</sup> Device Trust Manager](https://www.digicert.com/device-trust-manager) or as a standalone **command line** tool for performing common security tasks on a device, such as generating keys and submitting a certificate signing request (CSR) to a certificate authority (CA). TrustEdge is built using [DigiCert<sup>®</sup> TrustCore SDK](https://www.digicert.com/iot/trustcore-sdk).
 
 ## Agent mode
 
@@ -43,4 +43,4 @@ TrustEdge documentation is available at https://dev.digicert.com/en/trustedge.ht
 
 Device Trust Manager customers with an active support contract can contact DigiCert Support at https://www.digicert.com/support/pki-support.
 
-Users without an active support contract can provide feedback by creating an issue in GitHub.
+If you do not have an active support contract, you can provide feedback by creating an [issue](https://github.com/digicert/trustedge/issues).
