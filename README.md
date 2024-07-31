@@ -16,7 +16,6 @@ TrustEdge agent can:
 - Renew an operational certificate.
 - Manage device updates and configurations.
 - Report device properties directly to Device Trust Manager. For example, IP address, MAC address, or location.
-- Receive a dynamically assigned MQTT broker endpoint for sending and receiving device-to-cloud (D2C) communications.
 
 ## Command line mode
 
