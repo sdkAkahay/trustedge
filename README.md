@@ -6,22 +6,21 @@ TrustEdge is a standalone executable that can run as both an **agent** for devic
 
 ## Agent mode
 
-When run in agent mode, TrustEdge acts like a client to DigiCert<sup>®</sup> Device Trust Manager. It runs as daemon (Linux) or service (Windows) on an IoT device and uses MQTT for all communications between the device and Device Trust Manager.
+When run in agent mode, TrustEdge acts as a client to DigiCert<sup>®</sup> Device Trust Manager. It runs as daemon (Linux) on an IoT device and uses MQTT for all communications between the device and Device Trust Manager.
 
 TrustEdge agent can:
 
-- Authenticate a device with Device Trust Manager Rendezvous Service using bootstrap credentials. For example, an x.509 certificate.
+- Authenticate a device with Device Trust Manager using bootstrap credentials such as an x.509 "birth" certificate.
 - Interface with secure hardware elements on a device, such as a TPM or TEE.
-- Exchange bootstrap credentials for an operational certificate.
+- Exchange bootstrap credentials for an "operational" x.509 certificate for accessing cloud services such as an MQTT broker running in the cloud.
 - Renew an operational certificate.
 - Manage device updates and configurations.
 - Report device properties directly to Device Trust Manager. For example, IP address, MAC address, or location.
 - Receive a dynamically assigned MQTT broker endpoint for sending and receiving device-to-cloud (D2C) communications.
-- Connect to other applications running on the device via an API.
 
 ## Command line mode
 
-TrustEdge can also run as a standalone command line tool without the need for Device Trust Manager. TrustEdge command line is useful for prototyping and accelerating an IoT pilot or proof of concept. You can use it to perform common security tasks on an IoT device.
+TrustEdge can also run as a standalone command line interface (CLI) tool without the need for Device Trust Manager. TrustEdge command line is useful for prototyping and accelerating an IoT pilot or proof of concept. You can use it to perform common security tasks on an IoT device.
 
 TrustEdge command line can:
 
@@ -30,6 +29,8 @@ TrustEdge command line can:
 - Submit a CSR to a CA and obtain a certificate.
 - Renew a certificate.
 - Communicate with an MQTT broker over TLS using x.509 authentication.
+
+Rather than learning and using multiple OSS tools to accomplish the above tasks, TrustEdge command line brings all these capabilties into one easy-to-use tool.
 
 ## License
 
